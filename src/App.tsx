@@ -16,7 +16,7 @@ const links = [
     name: 'Zelle',
     handle: '+1 (464) 218-7071',
     href: 'https://www.zellepay.com/',
-    note: 'Use email in your banking app.',
+    note: 'Use this phone number in your banking app.',
   },
   {
     name: 'Cash App',
@@ -70,13 +70,7 @@ function App() {
         <div className="method-grid">
           {links.map((link) =>
             link.name === 'Zelle' ? (
-              <a
-                key={link.name}
-                className="method-card"
-                href={link.href}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <div key={link.name} className="method-card">
                 <div>
                   <img
                     src={zelleScreenshot}
@@ -87,8 +81,8 @@ function App() {
                   <p className="handle">{link.handle}</p>
                   <p className="note">{link.note}</p>
                 </div>
-                <span className="pill">Open</span>
-              </a>
+                <span className="pill">Details</span>
+              </div>
             ) : (
               <div key={link.name} className="method-card">
                 <div>
