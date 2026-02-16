@@ -101,11 +101,14 @@ function App() {
         <div className="update-card">
           <h2>Latest update</h2>
           <p>
-            The next two weeks are the most critical as Marwan’s care plan is
-            finalized and his medical team evaluates transfer options. We are
-            aiming to cover hospital bills, medications, and any urgent
-            transport expenses that may arise. Thank you for standing with him
-            and his family.
+            Marwan has been accepted for a second heart transplant at Vanderbilt
+            University Medical Center in Nashville. To move forward, the
+            hospital requires $45,000 in support with $25,000–$30,000 needed up
+            front, plus an additional $30,000 for an urgent air ambulance
+            transfer from Chicago. These funds cover medications not paid by
+            insurance and the required living expenses near the hospital during
+            transplant and recovery. Time is critical, and every contribution
+            helps keep his care moving forward.
           </p>
         </div>
         <div className="trust">
