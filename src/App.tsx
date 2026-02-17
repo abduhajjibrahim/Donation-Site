@@ -37,7 +37,7 @@ function App() {
     <div className="page">
       <header className="hero">
         <div className="hero-tag">Community Support Fund</div>
-        <h1>Help Marwan Elhit cover urgent medical expenses.</h1>
+        <h1>Help Marwan Elhit cover out-of-pocket expenses for an urgent heart transplant.</h1>
         <Link className="story-link" to="/story">
           His Story
         </Link>
